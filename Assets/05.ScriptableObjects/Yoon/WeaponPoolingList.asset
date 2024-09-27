@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef739f9902394de41b1036b9e0acfd28, type: 3}
+  m_Name: WeaponPoolingList
+  m_EditorClassIdentifier: 
+  PoolList:
+  - Prefab: {fileID: 5715601490753909416, guid: 1e1cfeeeb1ac4a148a3c2f2d61b982d1, type: 3}
+    Count: 20
+  - Prefab: {fileID: 1954020106666705174, guid: 3d31d4c29522eb54f92b7d59ecfc6cc2, type: 3}
+    Count: 20
+  - Prefab: {fileID: 8082656697176901573, guid: bbfbeaa1a4771f94992b84c50aa20be3, type: 3}
+    Count: 20
+  - Prefab: {fileID: -6555145144041373778, guid: 33fb3868705148d469d2e74fd337ad9b, type: 3}
+    Count: 20
+  - Prefab: {fileID: 1061516423623152706, guid: 244cc515882814f4092f1354e135821c, type: 3}
+    Count: 20
+  - Prefab: {fileID: 4460308780724651164, guid: 8122c406f872c2b429086c9f43439e7a, type: 3}
+    Count: 20
+  - Prefab: {fileID: 6200884651145416373, guid: 8d0c4af707af5314fabd249403803683, type: 3}
+    Count: 20
+  - Prefab: {fileID: 6838317814287066810, guid: 0ba19f06ddb598340aecdba17c5aa524, type: 3}
+    Count: 20
+  - Prefab: {fileID: 4935421473880161739, guid: 351eade4e5b6af14abec12181ddf8229, type: 3}
+    Count: 20
+  - Prefab: {fileID: 8788752144894334420, guid: bd54f824843b3974780630e6b4967797, type: 3}
+    Count: 20
+  - Prefab: {fileID: 2040331302826377020, guid: 8064132e8118da6438c632217e6b24ff, type: 3}
+    Count: 20

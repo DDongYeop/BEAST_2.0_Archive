@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2143278668577582747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986580876967499489}
+  - component: {fileID: 8620896293741146649}
+  m_Layer: 0
+  m_Name: TutorialObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &986580876967499489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143278668577582747}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4332446753337073726}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8620896293741146649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143278668577582747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f768f13da3b344abaa44c9527709d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTutorialIndex: 0
+  notifyText: {fileID: 0}
+  imageCanvasGroup: {fileID: 0}
+  handIconImage: {fileID: 0}
+--- !u!1 &8397075417827858356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4332446753337073726}
+  - component: {fileID: 1265634303887386908}
+  - component: {fileID: 3302343540891195709}
+  - component: {fileID: 8665982779891455058}
+  - component: {fileID: 3836406880840020713}
+  - component: {fileID: 6386936868827384888}
+  m_Layer: 0
+  m_Name: TutorialContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4332446753337073726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397075417827858356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 986580876967499489}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265634303887386908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397075417827858356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b224558abd0dc41b4f2b62cada3fe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notifyMessageList:
+  - "\uC774\uACF3\uC740 \uC624\uB798 \uC804 \uC5B4\uB460\uC758 \uD798\uC73C\uB85C
+    \uC138\uACC4\uAC00 \uC810\uB839\uB2F9\uD588\uC2B5\uB2C8\uB2E4."
+  - "\uB2F9\uC2E0\uC740 \uC5B4\uB460\uC758 \uD798\uC5D0 \uC7A0\uC2DD\uB41C \uBAAC\uC2A4\uD130\uB4E4\uC744
+    \uD1A0\uBC8C\uD558\uC5EC\uC57C \uD569\uB2C8\uB2E4."
+  - "\uC790. \uD654\uBA74\uC758 \uC601\uC5ED\uC744 \uD130\uCE58\uD558\uC5EC \uB4A4\uB85C
+    \uBB3C\uB7EC\uB098 \uBD05\uC2DC\uB2E4."
+  - "\uC798\uD588\uC5B4\uC694. \uB2E4\uC74C\uC740 \uACF5\uACA9\uC744 \uD574\uBCF4\uB3C4\uB85D
+    \uD558\uC8E0."
+  squareLineImage: {fileID: 0}
+--- !u!114 &3302343540891195709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397075417827858356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f707b2f5fa29bdb4782eee71317eae26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notifyMessageList:
+  - "\uC815\uD574\uC9C4 \uC601\uC5ED\uC744 \uD130\uCE58\uD558\uACE0 \uB4DC\uB798\uADF8\uD558\uC5EC
+    \uD3EC\uBB3C\uC120\uC744 \uADF8\uB824\uBCF4\uC138\uC694."
+  - "\uB4DC\uB798\uADF8\uD558\uACE0 \uB098\uC11C \uC190\uC744 \uB5BC\uBA74 \uBB34\uAE30\uAC00
+    \uBC1C\uC0AC\uB429\uB2C8\uB2E4."
+  - "\uC798\uD558\uC168\uC2B5\uB2C8\uB2E4. \uC774\uB7F0 \uC2DD\uC73C\uB85C \uD1A0\uBC8C\uC744
+    \uC9C4\uD589\uD558\uC2DC\uBA74 \uB429\uB2C8\uB2E4."
+  squareLineImage: {fileID: 0}
+--- !u!114 &8665982779891455058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397075417827858356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a37536d75e95d47978bd1e06f83dad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notifyMessageList:
+  - "\uBB34\uAE30\uB294 \uCD1D 3\uAC1C\uB97C \uC18C\uC9C0\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\t"
+  - "\uD1A0\uBC8C\uC744 \uD558\uB294 \uC911\uC5D0\uB3C4 \uBB34\uAE30\uB97C \uBCC0\uACBD\uD560
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  - "\uB2E4\uC591\uD55C \uBB34\uAE30\uB97C \uC0AC\uC6A9\uD558\uC5EC \uBCF4\uC2A4\uB97C
+    \uD1A0\uBC8C\uD558\uC138\uC694!"
+  squareLineImage: {fileID: 0}
+--- !u!114 &3836406880840020713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397075417827858356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd353c74aae4a74e9186092ce1b8404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notifyMessageList:
+  - "\uC774\uC81C \uACF0\uC744 \uD5A5\uD574 \uBB34\uAE30\uB97C \uBC1C\uC0AC\uD558\uC138\uC694!"
+  - "\uACF0\uC774 \uB370\uBBF8\uC9C0\uB97C \uC785\uC5C8\uC2B5\uB2C8\uB2E4! "
+  - "\uC774\uC81C \uB2F9\uC2E0\uC758 \uBB34\uAE30\uC5D0 \uB300\uD55C \uB2A5\uB825\uC744
+    \uC54C\uB824\uB4DC\uB9B4 \uC2DC\uAC04\uC774 \uB41C \uAC83 \uAC19\uB124\uC694."
+  squareLineImage: {fileID: 0}
+  wallCollider: {fileID: 0}
+--- !u!114 &6386936868827384888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8397075417827858356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb43a3af2df2624f850094752e040e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notifyMessageList:
+  - "\uB2F9\uC2E0\uC740 \uBCF4\uBB3C \uD558\uB098\uB97C \uAC00\uC9C0\uACE0 \uD1A0\uBC8C\uC5D0
+    \uB5A0\uB0A0 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\t"
+  - "\uBCF4\uBB3C\uC740 \uC815\uD574\uC9C4 \uBC1C\uC0AC \uD69F\uC218\uB97C \uB118\uC5C8\uC744
+    \uB54C \uACE0\uC720\uC758 \uD6A8\uACFC\uAC00 \uBC1C\uB3D9\uB429\uB2C8\uB2E4.\t"
+  - "\uBB34\uAE30\uC5D0\uAC8C \uACE0\uC720\uC758 \uD6A8\uACFC\uAC00 \uC7A0\uB4E4\uC5B4
+    \uC788\uC744 \uB54C\uB294 \uBE5B\uC774 \uB098\uAC8C \uB429\uB2C8\uB2E4."
+  - "\uC774\uC81C \uBA54\uB274\uB85C \uAC00 \uB2F9\uC2E0\uC758 \uBB34\uAE30\uC640
+    \uBCF4\uBB3C\uC744 \uC120\uD0DD\uD558\uACE0 \uD1A0\uBC8C\uC744 \uC2DC\uC791\uD558\uC138\uC694!"
+  squareLineImage: {fileID: 0}

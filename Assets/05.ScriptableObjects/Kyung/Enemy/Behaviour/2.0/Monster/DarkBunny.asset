@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9057994639685941228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a97b2e51c57db4c9d1d13b3ab56c3d, type: 3}
+  m_Name: CoolTimeNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: 21a55cb54998ead4d87e70a365118668
+  Position: {x: -6.999972, y: 336.35748}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  _isAnimation: 0
+  _animationKey: 
+  _coolTime: 2
+--- !u!114 &-7266600771643361734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3e3fffd5836444caf37b397f4307c9, type: 3}
+  m_Name: MoveNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: fd71c71a512c60d4694b2ae555725c4c
+  Position: {x: 153, y: 208.35751}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  _isAnimation: 0
+  _animationKey: 
+  _speed: 4
+--- !u!114 &-4659192074506181775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a958040352802ce4b80bc94212d97ada, type: 3}
+  m_Name: RangeCheckNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: 199dce3bd4a24e94fae1004bfd9b84c4
+  Position: {x: -157, y: 334.35754}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  _isAnimation: 0
+  _animationKey: 
+  _range: 3
+  _findLayer:
+    serializedVersion: 2
+    m_Bits: 32768
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f5c5a3f2fae414484f238748303c98, type: 3}
+  m_Name: DarkBunny
+  m_EditorClassIdentifier: 
+  RootNode: {fileID: 6829980393969321544}
+  TreeState: 0
+  Nodes:
+  - {fileID: 6829980393969321544}
+  - {fileID: 930069110865694416}
+  - {fileID: -4659192074506181775}
+  - {fileID: -9057994639685941228}
+  - {fileID: 5618762962329278767}
+  - {fileID: -7266600771643361734}
+  - {fileID: 4765163861426444284}
+  - {fileID: 5614466697516996237}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+--- !u!114 &930069110865694416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232924990db0d2248912ef4d9e978bcb, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: ce127236d3c9bd64e9344ec570d06cb4
+  Position: {x: -6, y: 84.479996}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  Children:
+  - {fileID: 5614466697516996237}
+  - {fileID: 4765163861426444284}
+  - {fileID: -7266600771643361734}
+--- !u!114 &4765163861426444284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c30ac3176271342b5b49641f79cc9e, type: 3}
+  m_Name: RunningSequencerNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: 410c8cddf95e5744b9a720f1a6be64c0
+  Position: {x: -7.9999995, y: 200.3575}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  Children:
+  - {fileID: -4659192074506181775}
+  - {fileID: -9057994639685941228}
+  - {fileID: 5618762962329278767}
+--- !u!114 &5614466697516996237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487bce44aca23b0448e4bc2b70b34e2e, type: 3}
+  m_Name: DieCheckNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: c0eb14f79a5bd924a91821358cb95223
+  Position: {x: -166.99998, y: 208.35751}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  _isAnimation: 0
+  _animationKey: 
+--- !u!114 &5618762962329278767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a314721012c18498a8f57d9e326868, type: 3}
+  m_Name: AttackNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: c9127f4f28b2d0342b771b45ad68ec0e
+  Position: {x: 145.00003, y: 338.35748}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  _isAnimation: 1
+  _animationKey: Attack
+  _attackObj:
+    serializedVersion: 2
+    m_Bits: 32768
+  _attackRadius: 2
+  _attackRange: 1.5
+  _damage: 2
+--- !u!114 &6829980393969321544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe0f272894391a4a8b0a8fd3d933fa9, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: 870179f3d74d46e4d8ec20d2245769c3
+  Position: {x: -4.6500134, y: -11.044056}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  Child: {fileID: 930069110865694416}

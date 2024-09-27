@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/07.UI/Kyung/BehaviourEditor/BehaviourTreeEditor.uss?fileID=7433441132597879392&amp;guid=438b6eedf933f4c4f92a3210ff12101c&amp;type=3#BehaviourTreeEditor" />
+    <Behaviour.SplitView fixed-pane-initial-dimension="300">
+        <ui:VisualElement name="left-panel" style="flex-grow: 1;">
+            <Behaviour.SplitView orientation="Vertical" fixed-pane-initial-dimension="212">
+                <ui:VisualElement name="inspector-container" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="Inspector" parse-escape-sequences="true" display-tooltip-when-elided="true" name="inspector-label" class="up-label" />
+                    <Behaviour.InspectorView style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="blackboard-container" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="BlackBoard" parse-escape-sequences="true" display-tooltip-when-elided="true" name="blackboard-label" class="up-label" />
+                    <ui:IMGUIContainer name="blackboard" style="flex-grow: 1; background-color: rgb(56, 56, 56);" />
+                </ui:VisualElement>
+            </Behaviour.SplitView>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Tree View" parse-escape-sequences="true" display-tooltip-when-elided="true" name="treeview-label" class="up-label" />
+            <Behaviour.BehaviourTreeView style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </Behaviour.SplitView>
+</ui:UXML>

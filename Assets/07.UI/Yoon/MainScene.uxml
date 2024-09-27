@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="container" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/07.Materials/Yoon/PixelateTexture.renderTexture?fileID=8400000&amp;guid=b08ef245b2ddccd4fa5e08fca93f06cd&amp;type=2#PixelateTexture&quot;);" />
+</ui:UXML>

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37db4771550786f41aefdd0fd8eaa470, type: 3}
+  m_Name: BowWeapon
+  m_EditorClassIdentifier: 
+  weaponId: Bow
+  mainWeaponSprite: {fileID: 21300128, guid: 15b2d2faaecad4bfb9edc6585d94f509, type: 3}
+  subWeaponSprite: {fileID: 21300226, guid: 15b2d2faaecad4bfb9edc6585d94f509, type: 3}
+  damage: 5
+  maxThrowCount: 0
+  maxCollisionCount: 1
+  weaponMass: 4.5
+  isHeavy: 0
+  isSharp: 1

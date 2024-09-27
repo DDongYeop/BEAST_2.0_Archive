@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5844304764128447895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe0f272894391a4a8b0a8fd3d933fa9, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Started: 0
+  Guid: d0efaa2089813a44198ab3bcbafe273e
+  Position: {x: 0, y: 0}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
+  Brain: {fileID: 0}
+  Description: 
+  Child: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f5c5a3f2fae414484f238748303c98, type: 3}
+  m_Name: TEST02
+  m_EditorClassIdentifier: 
+  RootNode: {fileID: -5844304764128447895}
+  TreeState: 0
+  Nodes:
+  - {fileID: -5844304764128447895}
+  Blackboard:
+    MoveToPosition: {x: 0, y: 0, z: 0}
+    MoveToObject: {fileID: 0}
